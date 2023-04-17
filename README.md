@@ -9,12 +9,19 @@ corresponding marks in a horizontal, vertical or diagonal row wins the game.
 
 
 Game board :
+
  |---|---|---|
+ 
  | 1 | 2 | 3 |
+  
  |-----------|
+ 
  | 4 | 5 | 6 |
+ 
  |-----------|
+ 
  | 7 | 8 | 9 |
+ 
  |---|---|---|
  
  Appendix:
