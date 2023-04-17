@@ -50,10 +50,6 @@ namespace _201635037
         {
             foreach (int[] winList in WinLists)
             {
-                // burada && and anlamına geliyor
-                // || or anlamına geliyor == eşit olduğu taktirde demek inherit yaptığımız için genel uğraştırıcı kısmını atlamış olduk. =! eşit değil demek bu gibi operotörler işimizi çok kolaylaştırdı
-                // (inherit mantığı java'nın benzeri) burada sadece (:) ile göstermemiz oldukça kolaylaştırıyor işimizi.
-                // ayrıca appendix verilmesi tablo çizimi gibi ZOR ve UĞRAŞTIRICI ve bir o kadarda yorucu olan işimizi halletmemizi sağladı. Bu Ödev için teşekkür ederim. Tekrar hatırlamamı sağladı.
                 if (board.ContainsKey(winList[0]) && board.ContainsKey(winList[1]) && board.ContainsKey(winList[2]))
                 {
                     if (board[winList[0]] == user && board[winList[1]] == user && board[winList[2]] == user)
